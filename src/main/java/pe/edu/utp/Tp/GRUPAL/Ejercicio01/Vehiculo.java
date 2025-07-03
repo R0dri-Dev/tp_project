@@ -2,7 +2,6 @@ package pe.edu.utp.Tp.GRUPAL.Ejercicio01;
 
 public class Vehiculo {
 
-    // Atributos de la clase Vehiculo
     private String placa;
     private String marca;
     private String modelo;
@@ -10,11 +9,9 @@ public class Vehiculo {
     private String color;
     private double precio;
 
-    // Constructor vacío
     public Vehiculo() {
     }
 
-    // Constructor con parámetros
     public Vehiculo(String placa, String marca, String modelo, int anio, String color, double precio) {
         this.placa = placa;
         this.marca = marca;
@@ -24,7 +21,6 @@ public class Vehiculo {
         this.precio = precio;
     }
 
-    // Getters y Setters
     public String getPlaca() {
         return placa;
     }
@@ -73,7 +69,6 @@ public class Vehiculo {
         this.precio = precio;
     }
 
-    // Método para mostrar la información del vehículo
     public void mostrarInfo() {
         System.out.printf("=== VEHÍCULO ===\n");
         System.out.printf("Placa: %s\n", placa);

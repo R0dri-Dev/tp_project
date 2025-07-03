@@ -1,7 +1,6 @@
 package pe.edu.utp.Tp.GRUPAL.Ejercicio02;
 
 public class Producto {
-    // Atributos de la clase Producto
     private int id;
     private String nombre;
     private double precio;
@@ -9,11 +8,9 @@ public class Producto {
     private String categoria;
     private String descripcion;
 
-    // Constructor vacío
     public Producto() {
     }
 
-    // Constructor con parámetros
     public Producto(int id, String nombre, double precio, int stock, String categoria, String descripcion) {
         this.id = id;
         this.nombre = nombre;
@@ -23,7 +20,6 @@ public class Producto {
         this.descripcion = descripcion;
     }
 
-    // Getters y Setters
     public int getId() {
         return id;
     }
@@ -72,7 +68,6 @@ public class Producto {
         this.descripcion = descripcion;
     }
 
-    // Método para mostrar información
     public void mostrarInfo() {
         System.out.printf("=== PRODUCTO ===\n");
         System.out.printf("ID: %d\n", id);

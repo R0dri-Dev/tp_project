@@ -2,7 +2,6 @@ package pe.edu.utp.Tp.GRUPAL.Ejercicio03;
 
 public class Empleado {
 
-    // Atributos de la clase Empleado
     private int id;
     private String nombre;
     private String apellido;
@@ -10,11 +9,9 @@ public class Empleado {
     private String departamento;
     private String fechaIngreso;
 
-    // Constructor vacío
     public Empleado() {
     }
 
-    // Constructor con parámetros
     public Empleado(int id, String nombre, String apellido, double salario, String departamento, String fechaIngreso) {
         this.id = id;
         this.nombre = nombre;
@@ -24,7 +21,6 @@ public class Empleado {
         this.fechaIngreso = fechaIngreso;
     }
 
-    // Getters y Setters
     public int getId() {
         return id;
     }
@@ -73,7 +69,6 @@ public class Empleado {
         this.fechaIngreso = fechaIngreso;
     }
 
-    // Método para mostrar información
     public void mostrarInfo() {
         System.out.printf("=== EMPLEADO ===\n");
         System.out.printf("ID: %d\n", id);
